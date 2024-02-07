@@ -26,7 +26,7 @@
 			
 			$this->account          = $account;
 			$this->uri              = 'https://www.instagram.com/' . $account . '/';
-			$this->accountCachePage = __DIR__ . "/cachepages/" . $this->account . ".html";
+			$this->accountCachePage = __DIR__ . "/../cachepages/" . $this->account . ".html";
 			$this->client           = new Client(['timeout' => 5.0]);
 		}
 		
@@ -72,7 +72,7 @@
 				$accountInfos = $this->getInfos($html, $this->uri);
 				
 				if ($displayDebug) {
-					dump(['debug' => [$debugs, $accountInfos]]); //-- replace with var_dump() if you don't want to use Tracy library.
+					var_dump(['debug' => [$debugs, $accountInfos]]);
 				}
 				
 				unset($debugs);
