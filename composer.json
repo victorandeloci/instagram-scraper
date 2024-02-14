@@ -1,5 +1,6 @@
 {
   "name": "victorandeloci/instagram-scraper",
+  "type": "library",
   "minimum-stability": "stable",
   "authors": [
     {
