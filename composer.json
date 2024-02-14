@@ -1,12 +1,14 @@
 {
-  "name": "vendor_name/instagram-scraper",
-  "description": "description",
+  "name": "victorandeloci/instagram-scraper",
   "minimum-stability": "stable",
-  "license": "proprietary",
   "authors": [
     {
       "name": "david paquette",
       "email": "david@paquette.codes"
+    },
+    {
+      "name": "Victor Andeloci",
+      "email": "victor.andeloci@gmail.com"
     }
   ],
   "require": {
